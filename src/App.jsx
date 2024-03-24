@@ -27,7 +27,7 @@ function App() {
       <nav className="w-full p-3 flex justify-between items-center">
         <button
           onClick={toggleTempUnit}
-          className="bg-blue-500 px-4 py-2 rounded-lg"
+          className="bg-blue-500 px-4 py-2 mr-1 rounded-lg"
           style={{ whiteSpace: "nowrap" }}
         >
           {`Switch to ${tempUnit === "C" ? "Fah" : "Cel"}`}
